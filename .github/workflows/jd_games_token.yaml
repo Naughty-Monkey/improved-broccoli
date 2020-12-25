@@ -4,7 +4,7 @@ on:
     schedule:
         - cron: "30 2 1,10,20 * *"
     watch:
-        types: [started]
+        types: [started,push]
 
 jobs:
   build:

@@ -84,5 +84,6 @@ get(bean, beandata)
 get(farm, farmdata)
 get(pet, petdata)
 get(jdzuanzuan, zuanzuandata)
+get(crazyjoy, crazydata)
 
 print("finished")
