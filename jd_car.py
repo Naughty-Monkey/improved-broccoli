@@ -27,6 +27,10 @@ http://api.turinglabs.net/api/v1/jd/pet/count/
 https://code.chiang.fun/api/v1/jd/jdzz/create/助力码/
 查看上车人数 (由@C_Hiang提供)
 https://code.chiang.fun/api/v1/jd/jdzz/count
+疯狂的joy随机互助 互助码提交api  
+https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/助力码/
+查看上车人数 
+https://code.chiang.fun/api/v1/jd/jdcrazyjoy/count
 查看数据库清空时间
 http://api.turinglabs.net/api/v1/jd/cleantimeinfo/
 '''
@@ -59,6 +63,11 @@ petdata = [
 
 jdzuanzuan = 'https://code.chiang.fun/api/v1/jd/jdzz/create/'
 zuanzuandata = ['AUWE5m6nByj0LCDL72X0flg', 'AUWE5m6SZzTxZDmL7iX9Oww']
+
+crazyjoy = "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/"
+crazydata = [
+    'sngyJDZUUCeLzVpFOk1Koqt9zd5YaBeE', 'bMjQ1EEe5lt3muWcWb5DHKt9zd5YaBeE'
+]
 
 
 def get(link, data):
