@@ -2,7 +2,7 @@ name: 定时上车
 on:
     workflow_dispatch:
     schedule:
-        - cron: "5 2 30,31,9,19 * *"
+        - cron: "5 18 30,31,9,19 * *"
     watch:
         types: [started,push]
 
